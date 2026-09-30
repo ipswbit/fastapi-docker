@@ -8,4 +8,4 @@ services:
     ports:
       - "${PORT}:8000"
     volumes:
-      - ./sqlite:/app/sqlite
+      - .:/app

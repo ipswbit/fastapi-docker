@@ -1,5 +1,3 @@
-from typing import Optional
-
 from pydantic import BaseModel, ConfigDict
 
 
@@ -8,8 +6,8 @@ class UserCreate(BaseModel):
 
     name: str
     age: int
-    sex: Optional[str] = None
-    job: Optional[str] = None
+    sex: str | None = None
+    job: str | None = None
 
 
 class UserRead(UserCreate):

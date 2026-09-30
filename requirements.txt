@@ -4,3 +4,4 @@ SQLAlchemy==2.0.41              # ORM
 aiosqlite==0.21.0               # асинхронный драйвер для бд SQLite
 pydantic==2.11.7
 pydantic-settings==2.10.1
+ruff==0.6.9

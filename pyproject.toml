@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311" # Укажите вашу версию Python
+
+[tool.ruff.lint]
+# Включаем базовые правила pycodestyle (E, W), pyflakes (F), isort (I), pyupgrade (UP)
+select = ["E", "F", "W", "I", "UP", "B", "C4"]
+ignore = []
+
+# Исключения
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"] # Игнорировать неиспользуемые импорты в __init__.py

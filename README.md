@@ -94,4 +94,5 @@ fastapi-main/
 ├── requirements.txt             # Зависимости Python
 ├── .dockerignore                # Файлы, исключённые из Docker
 └── .gitignore                   # Файлы, исключённые из Git
+└── pyproject.toml               # Настройки линтера Ruff
 ```
